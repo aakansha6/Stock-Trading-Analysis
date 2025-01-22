@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Aakansha Sawhney
-Class: CS 677
-Date:
-Homework Problem #1
+
 Description of Problem: Python has been used to analyze the distribution of returns 
 and a number of trading strategies on two datasets - Starbucks and SPY.
 Starbucks is the stock chosen by me and the SPY has been provided for comparison.
@@ -19,6 +17,7 @@ from xml.dom.domreg import well_known_implementations
 
 ticker='/Users/aakanshasawhney/Desktop/Python/Assignments/week_1_homework/akansha3_hw_1/SBUX.csv'
 new_ticker='/Users/aakanshasawhney/Desktop/Python/Assignments/week_1_homework/akansha3_hw_1/SPY.csv'
+
 try:   
     with open(ticker, newline='') as starbucks_file:
         reader = csv.DictReader(starbucks_file)
